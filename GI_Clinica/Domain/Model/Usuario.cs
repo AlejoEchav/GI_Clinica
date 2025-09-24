@@ -10,15 +10,15 @@ namespace GI_Clinica.Domain.Model
 {
     public class Usuario
     {
-        public int IdUsuario;
-        public string NombreCompleto;
-        public DocumentoIdentidad Cedula;
-        public Email Correo;
-        public Telefono Telefono;
-        public DateTime FechaNacimiento;
-        public Direccion Direccion;
-        public string Rol;
-        public string UsuarioLogin;
-        public string Password;
+        public int IdUsuario { get; set; }
+        public string NombreCompleto { get; set; }
+        public DocumentoIdentidad Cedula { get; set; }
+        public Email Correo { get; set; }
+        public Telefono Telefono { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public Direccion Direccion { get; set; }
+        public string Rol { get; set; }
+        public string UsuarioLogin { get; set; }
+        public string Password { get; set; }
     }
 }
